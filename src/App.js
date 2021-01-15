@@ -1,13 +1,16 @@
+import React from "react";
 import "./globals.css";
 import Header from "./components/header";
 import TopCardsList from "./components/top-cards-list";
 import OverviewList from "./components/overview-list";
-import React from "react";
+import SwitchDarkMode from "./components/switch-dark-mode";
 
 function App() {
   return (
     <>
-      <Header />
+      <Header>
+        <SwitchDarkMode />
+      </Header>
       <TopCardsList />
       <OverviewList />
     </>

@@ -1,5 +1,6 @@
 import React from "react";
 import OverviewItem from "./overview-item";
+import "./overview-list.css";
 
 const overviewListData = [
   {

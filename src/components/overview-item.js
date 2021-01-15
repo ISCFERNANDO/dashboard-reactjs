@@ -1,4 +1,5 @@
 import React from "react";
+import "./overview-item.css";
 
 function OverviewItem({ title, icon, overviewNumber, percent }) {
   return (
